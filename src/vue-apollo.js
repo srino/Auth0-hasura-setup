@@ -25,7 +25,7 @@ const defaultOptions = {
   httpEndpoint,
   // You can use `wss` for secure connection (recommended in production)
   // Use `null` to disable subscriptions
-  wsEndpoint: process.env.VUE_APP_GRAPHQL_WS || 'https://hasura-demo-one.herokuapp.com/v1/graphql',
+  wsEndpoint: process.env.VUE_APP_GRAPHQL_WS || 'wss://hasura-demo-one.herokuapp.com/v1/graphql',
   // LocalStorage token
   tokenName: AUTH_TOKEN,
   // Enable Automatic Query persisting with Apollo Engine
