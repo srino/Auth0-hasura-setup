@@ -51,9 +51,9 @@
             </li> -->
           </ul>
 
-          <ul class="navbar-nav d-md-none" v-if="!isAuthenticated">
+          <!-- <ul class="navbar-nav d-md-none" v-if="!isAuthenticated">
             <button class="btn btn-primary btn-block" @click="login">Log in</button>
-          </ul>
+          </ul> -->
 
           <ul class="navbar-nav d-md-none" v-if="isAuthenticated">
             <li class="nav-item">
